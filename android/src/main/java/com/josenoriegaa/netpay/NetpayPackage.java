@@ -1,4 +1,6 @@
-package com.netpay;
+package com.josenoriegaa.netpay;
+
+import android.app.Activity;
 
 import androidx.annotation.NonNull;
 

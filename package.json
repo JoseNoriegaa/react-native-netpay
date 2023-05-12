@@ -28,18 +28,22 @@
   ],
   "scripts": {
     "test": "jest",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --pretty --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepack": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
-    "bootstrap": "yarn example && yarn install && yarn example pods",
+    "bootstrap": "yarn example && yarn install",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build"
   },
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "react",
+    "netpay",
+    "payments",
+    "component"
   ],
   "repository": "https://github.com/JoseNoriegaa/react-native-netpay",
   "author": "Jose Noriega <josenoriega723@gmail.com> (https://github.com/JoseNoriegaa)",
