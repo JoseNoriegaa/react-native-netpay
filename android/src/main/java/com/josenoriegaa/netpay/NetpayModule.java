@@ -47,7 +47,7 @@ public class NetpayModule extends ReactContextBaseJavaModule {
 
           WritableMap result = Arguments.createMap();
           result.putString("token", token);
-          result.putString("lastFour", token);
+          result.putString("lastFour", lastFour);
           result.putString("brand", brand);
 
           mPromise.resolve(result);
